@@ -2,7 +2,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	padding:20px;
-	background-color: gray;
+	background-color: #6f6767;
 	}
 
 *{
@@ -44,6 +44,18 @@ nav input[type=text] {
 	border: none;
 	font-size: 17px;
 }
+input[type='text'] {
+    width: 15%;
+    padding: 15px;
+    border: 1px blue ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
 .select-style {
     border: 2px solid #ccc;
     width: 204px;
@@ -462,6 +474,17 @@ th, td {
     bottom: 22px;
 	
 }
+#mainbody {
+	width:100%;
+	
+	background-image:white;
+	
+	text-align:center;
+
+	color:#6d7f89;
+	font-size:20px;
+	margin-top: 0px;
+	}
 .header{
 	background-color:#333;
 	height: 80px;

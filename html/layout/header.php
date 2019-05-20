@@ -1,9 +1,10 @@
+
 	<?php 
-	require_once('includes/config.php');
-	?>
+	session_start();
+	ob_start();
+ 	require_once('includes/config.php');
 
-
-
+// 	?>
 
 <!DOCTYPE html>
 <html>

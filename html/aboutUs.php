@@ -10,8 +10,9 @@ require('layout/header.php');
 			<li><a href="product.php">Product</a></li>
 			<li><a href="requirement.php">Requirements</a></li>
 			<li><a href="stlView.php">3D View</a></li>
-			<li id= "active"><a href="aboutUs.php">About Us</a></li>
-			<li><a href="contactus.php">Contact Us</a></li>
+			<li><a href="printCal.php">Cost Calculation</a></li>	
+			<li id= "active" ><a href="aboutUs.php">About Us</a></li>
+			<li><a href="contactUs.php">Contact Us</a></li>
 		</ul>		
 	</nav>
 </div>	
@@ -46,7 +47,7 @@ require('layout/header.php');
 	
 		<br>
 		<p> Please</p>
-		<a href="contactUs"><font color="#d00004"> Contact Us</font></a> <p> For More Information</p>
+		<a href="contactUs.php"><font color="#d00004"> Contact Us</font></a> <p> For More Information</p>
 		<br>
 		
 		<p>  For Other Details Please Visit</p>

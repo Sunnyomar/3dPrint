@@ -1,10 +1,13 @@
 <?php
 //include header template
-session_start();
+require('layout/header.php');
+
 if(!isset($_SESSION['username'])){
 	header("Location:login.php");
+	
 }
-require('layout/header.php');
+
+
 ?>
 <div class="nav" id="nav1" >  
 	<nav>  
@@ -13,16 +16,16 @@ require('layout/header.php');
 			<li><a href="product.php">Product</a></li>
 			<li><a href="requirement.php">Requirements</a></li>
 			<li><a href="stlView.php">3D View</a></li>
-			<li id= "active"><a href="printCal.php">Cost Calculation</a></li>			
+			<li  id= "active" ><a href="printCal.php">Cost Calculation</a></li>	
 			<li><a href="aboutUs.php">About Us</a></li>
 			<li><a href="contactUs.php">Contact Us</a></li>
-		</ul>		
+		</ul>	
 	</nav>
 </div>	
 <body >
 
 <div id="mainbody">
-<form>
+<form method="post" role="form" action="printInsert.php" autocomplete="off">
 	<h2>  Prototype Pre-Production Information*</h2>
 	  Model Material Req:
 	  &nbsp;&nbsp;
@@ -193,7 +196,7 @@ require('layout/header.php');
 		  <button class="btn btn-danger" id = "lastButton" type ="button" onclick = "resetAmount();" > Clear </button>
 	  </div>
 	  <div>
-	    <button type="button" title="Apply for approval" class="btn btn-info">Apply</button>
+	    <button type="submit" name="submit"value="submit" title="Apply for approval" class="btn btn-info">Apply</button>
 	   </div>
 	</form> 
 <br>

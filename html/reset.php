@@ -82,9 +82,10 @@ require('layout/header.php');
 			<li><a href="product.php">Product</a></li>
 			<li><a href="requirement.php">Requirements</a></li>
 			<li><a href="stlView.php">3D View</a></li>
-			<li><a href="aboutus.html">About Us</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-		</ul>		
+			<li><a href="printCal.php">Cost Calculation</a></li>	
+			<li><a href="aboutUs.php">About Us</a></li>
+			<li><a href="contactUs.php">Contact Us</a></li>
+		</ul>	
 	</nav>
 </div>	
 <body>

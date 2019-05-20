@@ -69,7 +69,7 @@ require('layout/header.php');
 	<br>
 	<br>
 	<div id="applications">
-	<h3><a href="product" class=" "><font color="white">Check Requirments</font></a></h3>
+	<h3><a href="requirement.php" class=" "><font color="white">Check Requirments</font></a></h3>
 	</div>
 	<p> 3D printing is about making three dimensional solid object from a digital file following a process. </p>
 	<p>This web application will help you to achieve using additive processses. 3D pritning enables you to produce complex shapes but using less matirial comapre with traditional methods.</p>
@@ -77,7 +77,7 @@ require('layout/header.php');
 	<br>
 	<br>
 	<p> Please</p>
-	<a href="contactUs"><font color="#d00004"> Contact Us</font></a> <p> For More Information</p>
+	<a href="contactUs.php"><font color="#d00004"> Contact Us</font></a> <p> For More Information</p>
 	<br>
 	
 	<p>  For Other Details Please Visit</p>

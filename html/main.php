@@ -79,7 +79,7 @@ if(isset($_POST['submit'])){
 			//send email
 			$to = $_POST['email'];
 			$subject = "Registration Confirmation";
-			$body = "<p>Thank you for registering at demo site.</p>
+			$body = "<p>Thank you for registering at 3d Print site.</p>
 			<p>To activate your account, please click on this link: <a href='".DIR."activate.php?x=$id&y=$activasion'>".DIR."activate.php?x=$id&y=$activasion</a></p>
 			<p>Regards Site Admin</p>";
 
@@ -115,9 +115,10 @@ require('layout/header.php');
 			<li><a href="product.php">Product</a></li>
 			<li><a href="requirement.php">Requirements</a></li>
 			<li><a href="stlView.php">3D View</a></li>
-			<li><a href="aboutus.html">About Us</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-		</ul>		
+			<li><a href="printCal.php">Cost Calculation</a></li>	
+			<li><a href="aboutUs.php">About Us</a></li>
+			<li><a href="contactUs.php">Contact Us</a></li>
+		</ul>	
 	</nav>
 </div>	
 <body>

@@ -1,8 +1,9 @@
 <?php
-ob_start();
-// if(session_id() == '') {
-session_start();
-// }
+
+if(session_id() != '') {
+	session_start();
+	ob_start();
+}
 
 //set timezone
 date_default_timezone_set('Europe/London');
